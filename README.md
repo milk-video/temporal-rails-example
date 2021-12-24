@@ -28,6 +28,16 @@ Clicking the one click deploy button above will deploy this repo to a Heroku ins
 
 Deploying to heroku will trigger the production procfile using: `foreman start Procfile`.
 
+## Environment variables
+
+If running remotely, update the environment variables:
+```
+TEMPORAL_HOST='localhost'
+TEMPORAL_PORT=7233
+TEMPORAL_NAMESPACE='default'
+TEMPORAL_TASK_QUEUE='general'
+```
+
 ## Learn more
 [Temporal](https://temporal.io/) is best learned directly from the developer documentation on the [Temporal docs website](https://docs.temporal.io/).
 
