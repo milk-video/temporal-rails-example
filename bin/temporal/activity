@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+require_relative '../../config/initializers/temporal'
+
+command, async_token, message = ARGV
+
+if !command || !async_token
+  fail 'Wrong arguments, use `bin/activity COMMAND ASYNC_TOKEN [MESSAGE]`'
+end
+
+case command.to_sym
+when :complete
+  Temporal.complete_activity(async_token, message)
+  Temporal.logger.info 'Activity successfully completed!'
+when :fail
+  Temporal.fail_activity(async_token, StandardError.new(message))
+  Temporal.logger.info 'Activity successfully failed!'
+else
+  fail "Wrong command #{command}, use 'complete' or 'fail'"
+end
