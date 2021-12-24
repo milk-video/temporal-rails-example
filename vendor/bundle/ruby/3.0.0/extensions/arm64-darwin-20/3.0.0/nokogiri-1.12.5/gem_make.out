@@ -1,0 +1,210 @@
+current directory: /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.5/ext/nokogiri
+/Users/leonardbogdonoff/.metawork/runtimes/ruby-3.0.3/bin/ruby -I /Users/leonardbogdonoff/.metawork/runtimes/ruby-3.0.3/lib/ruby/3.0.0 -r ./siteconf20211224-56254-3x5h8z.rb extconf.rb
+checking for whether -std=c99 is accepted as CFLAGS... yes
+checking for whether -Wno-declaration-after-statement is accepted as CFLAGS... yes
+checking for whether -g is accepted as CFLAGS... yes
+checking for whether -Winline is accepted as CFLAGS... yes
+checking for whether -Wmissing-noreturn is accepted as CFLAGS... yes
+checking for whether -Wno-error=unused-command-line-argument-hard-error-in-future is accepted as CFLAGS... no
+Building nokogiri using packaged libraries.
+Static linking is enabled.
+Cross build is disabled.
+checking for iconv.h... yes
+checking for gzdopen() in -lz... yes
+Using mini_portile version 2.6.1
+checking for iconv... yes
+---------- IMPORTANT NOTICE ----------
+Building Nokogiri with a packaged version of libxml2-2.9.12.
+Configuration options: --host\=arm64-apple-darwin20 --enable-static --disable-shared --libdir\=/Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.5/ports/arm64-apple-darwin20/libxml2/2.9.12/lib --with-iconv\=yes --disable-dependency-tracking --without-python --without-readline --with-c14n --with-debug --with-threads --disable-shared --enable-static RANLIB\=/usr/bin/ranlib AR\=/usr/bin/ar CFLAGS\=-O2\ -U_FORTIFY_SOURCE\ -g\ -fPIC
+The following patches are being applied:
+  - 0001-Remove-script-macro-support.patch
+  - 0002-Update-entities-to-remove-handling-of-ssi.patch
+  - 0003-libxml2.la-is-in-top_builddir.patch
+  - 0004-use-glibc-strlen.patch
+  - 0005-avoid-isnan-isinf.patch
+  - 0006-update-automake-files-for-arm64.patch
+  - 0007-Fix-XPath-recursion-limit.patch
+
+The Nokogiri maintainers intend to provide timely security updates, but if
+this is a concern for you and want to use your OS/distro system library
+instead, then abort this installation process and install nokogiri as
+instructed at:
+
+  https://nokogiri.org/tutorials/installing_nokogiri.html#installing-using-standard-system-libraries
+
+Note, however, that nokogiri cannot guarantee compatibility with every
+version of libxml2 that may be provided by OS/package vendors.
+
+Extracting libxml2-2.9.12.tar.gz into tmp/arm64-apple-darwin20/ports/libxml2/2.9.12... OK
+Running git apply with /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.5/patches/libxml2/0001-Remove-script-macro-support.patch... OK
+Running git apply with /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.5/patches/libxml2/0002-Update-entities-to-remove-handling-of-ssi.patch... OK
+Running git apply with /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.5/patches/libxml2/0003-libxml2.la-is-in-top_builddir.patch... OK
+Running git apply with /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.5/patches/libxml2/0004-use-glibc-strlen.patch... OK
+Running git apply with /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.5/patches/libxml2/0005-avoid-isnan-isinf.patch... OK
+Running git apply with /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.5/patches/libxml2/0006-update-automake-files-for-arm64.patch... OK
+Running git apply with /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.5/patches/libxml2/0007-Fix-XPath-recursion-limit.patch... OK
+Running 'configure' for libxml2 2.9.12... OK
+Running 'compile' for libxml2 2.9.12... OK
+Running 'install' for libxml2 2.9.12... OK
+Activating libxml2 2.9.12 (from /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.5/ports/arm64-apple-darwin20/libxml2/2.9.12)...
+Using mini_portile version 2.6.1
+---------- IMPORTANT NOTICE ----------
+Building Nokogiri with a packaged version of libxslt-1.1.34.
+Configuration options: --host\=arm64-apple-darwin20 --enable-static --disable-shared --libdir\=/Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.5/ports/arm64-apple-darwin20/libxslt/1.1.34/lib --disable-dependency-tracking --without-python --without-crypto --with-debug --with-libxml-prefix\=/Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.5/ports/arm64-apple-darwin20/libxml2/2.9.12 --disable-shared --enable-static RANLIB\=/usr/bin/ranlib AR\=/usr/bin/ar CFLAGS\=-O2\ -U_FORTIFY_SOURCE\ -g\ -fPIC
+The following patches are being applied:
+  - 0001-update-automake-files-for-arm64.patch
+  - 0002-Fix-xml2-config-check-in-configure-script.patch
+
+The Nokogiri maintainers intend to provide timely security updates, but if
+this is a concern for you and want to use your OS/distro system library
+instead, then abort this installation process and install nokogiri as
+instructed at:
+
+  https://nokogiri.org/tutorials/installing_nokogiri.html#installing-using-standard-system-libraries
+
+Extracting libxslt-1.1.34.tar.gz into tmp/arm64-apple-darwin20/ports/libxslt/1.1.34... OK
+Running git apply with /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.5/patches/libxslt/0001-update-automake-files-for-arm64.patch... OK
+Running git apply with /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.5/patches/libxslt/0002-Fix-xml2-config-check-in-configure-script.patch... OK
+Running 'configure' for libxslt 1.1.34... OK
+Running 'compile' for libxslt 1.1.34... OK
+Running 'install' for libxslt 1.1.34... OK
+Activating libxslt 1.1.34 (from /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.5/ports/arm64-apple-darwin20/libxslt/1.1.34)...
+checking for whether -DNOKOGIRI_PACKAGED_LIBRARIES is accepted as CPPFLAGS... yes
+checking for whether -DNOKOGIRI_LIBXML2_PATCHES="\"0001-Remove-script-macro-support.patch 0002-Update-entities-to-remove-handling-of-ssi.patch 0003-libxml2.la-is-in-top_builddir.patch 0004-use-glibc-strlen.patch 0005-avoid-isnan-isinf.patch 0006-update-automake-files-for-arm64.patch 0007-Fix-XPath-recursion-limit.patch\"" is accepted as CPPFLAGS... yes
+checking for -llzma... yes
+checking for whether -DNOKOGIRI_LIBXSLT_PATCHES="\"0001-update-automake-files-for-arm64.patch 0002-Fix-xml2-config-check-in-configure-script.patch\"" is accepted as CPPFLAGS... yes
+checking for xmlParseDoc() in libxml/parser.h... yes
+checking for xsltParseStylesheetDoc() in libxslt/xslt.h... yes
+checking for exsltFuncRegister() in libexslt/exslt.h... yes
+Using mini_portile version 2.6.1
+---------- IMPORTANT NOTICE ----------
+Building Nokogiri with a packaged version of libgumbo-1.0.0-nokogiri.
+Configuration options: --disable-shared --enable-static CFLAGS\=-fPIC
+Copying gumbo-parser files into tmp/arm64-apple-darwin20/ports/libgumbo/1.0.0-nokogiri/gumbo-parser...
+Running 'compile' for libgumbo 1.0.0-nokogiri... OK
+Activating libgumbo 1.0.0-nokogiri (from ports/arm64-apple-darwin20/libgumbo/1.0.0-nokogiri)...
+checking for whether -I/Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.5/ext/nokogiri/ports/arm64-apple-darwin20/libgumbo/1.0.0-nokogiri/include is accepted as CPPFLAGS... yes
+checking for gumbo_parse_with_options() in gumbo.h... yes
+checking for xmlHasFeature()... yes
+checking for xmlFirstElementChild()... yes
+checking for xmlRelaxNGSetParserStructuredErrors()... yes
+checking for xmlRelaxNGSetValidStructuredErrors()... yes
+checking for xmlSchemaSetValidStructuredErrors()... yes
+checking for xmlSchemaSetParserStructuredErrors()... yes
+checking for vasprintf()... yes
+checking for whether -DNOKOGIRI_OTHER_LIBRARY_VERSIONS="\"libgumbo:1.0.0-nokogiri\"" is accepted as CPPFLAGS... yes
+creating Makefile
+
+current directory: /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.5/ext/nokogiri
+make DESTDIR\= clean
+
+current directory: /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.5/ext/nokogiri
+make DESTDIR\=
+compiling gumbo.c
+gumbo.c:284:57: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+      rb_iv_set(syntax_error, "@line", INT2NUM(position.line));
+                                       ~~~~~~~ ~~~~~~~~~^~~~
+gumbo.c:289:59: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+      rb_iv_set(syntax_error, "@column", INT2NUM(position.column));
+                                         ~~~~~~~ ~~~~~~~~~^~~~~~
+gumbo.c:504:30: warning: implicit conversion loses integer precision: 'VALUE' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+                             rb_utf8_str_new_static("encoding", 8));
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3 warnings generated.
+compiling html4_document.c
+html4_document.c:149:18: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  return INT2NUM((long)doc->type);
+         ~~~~~~~ ^~~~~~~~~~~~~~~
+1 warning generated.
+compiling html4_element_description.c
+compiling html4_entity_lookup.c
+html4_entity_lookup.c:23:36: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  rb_constructor_args[0] = INT2NUM((long)c_entity_desc->value);
+                           ~~~~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+compiling html4_sax_parser_context.c
+compiling html4_sax_push_parser.c
+compiling libxml2_backwards_compat.c
+compiling nokogiri.c
+compiling test_global_handlers.c
+compiling xml_attr.c
+compiling xml_attribute_decl.c
+xml_attribute_decl.c:16:18: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  return INT2NUM((long)node->atype);
+         ~~~~~~~ ^~~~~~~~~~~~~~~~~
+1 warning generated.
+compiling xml_cdata.c
+xml_cdata.c:32:23: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+    content_str_len = RSTRING_LEN(content);
+                    ~ ^~~~~~~~~~~~~~~~~~~~
+/Users/leonardbogdonoff/.metawork/runtimes/ruby-3.0.3/include/ruby-3.0.0/ruby/internal/core/rstring.h:44:27: note: expanded from macro 'RSTRING_LEN'
+#define RSTRING_LEN       RSTRING_LEN
+                          ^
+1 warning generated.
+compiling xml_comment.c
+compiling xml_document.c
+compiling xml_document_fragment.c
+compiling xml_dtd.c
+compiling xml_element_content.c
+xml_element_content.c:34:18: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  return INT2NUM((long)elem->type);
+         ~~~~~~~ ^~~~~~~~~~~~~~~~
+xml_element_content.c:82:18: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  return INT2NUM((long)elem->ocur);
+         ~~~~~~~ ^~~~~~~~~~~~~~~~
+2 warnings generated.
+compiling xml_element_decl.c
+xml_element_decl.c:18:18: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  return INT2NUM((long)node->etype);
+         ~~~~~~~ ^~~~~~~~~~~~~~~~~
+1 warning generated.
+compiling xml_encoding_handler.c
+compiling xml_entity_decl.c
+compiling xml_entity_reference.c
+compiling xml_namespace.c
+compiling xml_node.c
+xml_node.c:397:18: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  return INT2NUM((long)(node));
+         ~~~~~~~ ^~~~~~~~~~~~
+xml_node.c:1139:18: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  return INT2NUM((long)node->type);
+         ~~~~~~~ ^~~~~~~~~~~~~~~~
+xml_node.c:1390:18: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  return INT2NUM(xmlGetLineNo(node));
+         ~~~~~~~ ^~~~~~~~~~~~~~~~~~
+xml_node.c:1527:18: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  return INT2NUM((long)xmlXPathCmpNodes(other, node));
+         ~~~~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4 warnings generated.
+compiling xml_node_set.c
+compiling xml_processing_instruction.c
+compiling xml_reader.c
+xml_reader.c:255:18: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  return INT2NUM((long)count);
+         ~~~~~~~ ^~~~~~~~~~~
+xml_reader.c:274:18: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  return INT2NUM((long)depth);
+         ~~~~~~~ ^~~~~~~~~~~
+xml_reader.c:440:18: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  return INT2NUM((long)xmlTextReaderReadState(reader));
+         ~~~~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xml_reader.c:454:18: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  return INT2NUM((long)xmlTextReaderNodeType(reader));
+         ~~~~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4 warnings generated.
+compiling xml_relax_ng.c
+compiling xml_sax_parser.c
+compiling xml_sax_parser_context.c
+compiling xml_sax_push_parser.c
+compiling xml_schema.c
+compiling xml_syntax_error.c
+compiling xml_text.c
+compiling xml_xpath_context.c
+compiling xslt_stylesheet.c
+linking shared-object nokogiri/nokogiri.bundle
+Cleaning files only used during build.
+
+current directory: /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.5/ext/nokogiri
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 nokogiri.bundle ./.gem.20211224-56254-t5t4sa/nokogiri
+installing nokogiri libraries

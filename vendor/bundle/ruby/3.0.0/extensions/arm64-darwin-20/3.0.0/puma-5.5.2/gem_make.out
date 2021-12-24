@@ -1,0 +1,20 @@
+current directory: /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/puma-5.5.2/ext/puma_http11
+/Users/leonardbogdonoff/.metawork/runtimes/ruby-3.0.3/bin/ruby -I /Users/leonardbogdonoff/.metawork/runtimes/ruby-3.0.3/lib/ruby/3.0.0 -r ./siteconf20211224-56254-a9w22v.rb extconf.rb
+checking for BIO_read() in -lcrypto... no
+checking for BIO_read() in -llibeay32... no
+** Puma will be compiled without SSL support
+creating Makefile
+
+current directory: /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/puma-5.5.2/ext/puma_http11
+make DESTDIR\= clean
+
+current directory: /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/puma-5.5.2/ext/puma_http11
+make DESTDIR\=
+compiling http11_parser.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.bundle
+
+current directory: /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/puma-5.5.2/ext/puma_http11
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20211224-56254-4ogml8/puma

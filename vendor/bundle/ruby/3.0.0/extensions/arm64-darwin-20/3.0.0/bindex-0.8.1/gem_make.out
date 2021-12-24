@@ -1,0 +1,15 @@
+current directory: /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/leonardbogdonoff/.metawork/runtimes/ruby-3.0.3/bin/ruby -I /Users/leonardbogdonoff/.metawork/runtimes/ruby-3.0.3/lib/ruby/3.0.0 -r ./siteconf20211224-56254-8smo41.rb extconf.rb
+creating Makefile
+
+current directory: /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= clean
+
+current directory: /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\=
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20211224-56254-7od1id/skiptrace/internal

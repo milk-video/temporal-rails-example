@@ -1,0 +1,16 @@
+current directory: /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+/Users/leonardbogdonoff/.metawork/runtimes/ruby-3.0.3/bin/ruby -I /Users/leonardbogdonoff/.metawork/runtimes/ruby-3.0.3/lib/ruby/3.0.0 -r ./siteconf20211224-56254-souz4r.rb extconf.rb
+creating Makefile
+
+current directory: /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+make DESTDIR\= clean
+
+current directory: /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+make DESTDIR\=
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/leonardbogdonoff/Spaceship/milk-video/milk-spaceship/rails-temporal-example/vendor/bundle/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20211224-56254-tauo7v/debug
