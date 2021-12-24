@@ -13,4 +13,26 @@
       "size": "free"
     }
   },
+  "env": {
+    "TEMPORAL_HOST": {
+      "description": "Update the hostname of the temporal server.",
+      "value": "localhost"
+    },
+    "TEMPORAL_PORT": {
+      "description": "The port of the temporal server.",
+      "value": 7233
+    },
+    "TEMPORAL_NAMESPACE": {
+      "description": "The namespace of the temporal server worker queue.",
+      "value": "default"
+    },
+    "TEMPORAL_TASK_QUEUE": {
+      "description": "The task queue of the temporal server.",
+      "value": "general"
+    }
+  }
 }
+
+
+
+
