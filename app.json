@@ -1,0 +1,6 @@
+{
+  "name": "Temporal on Rails deploy to Heroku example",
+  "description": "A barebones Rails app with temporal-ruby sdk",
+  "repository": "https://github.com/milk-video/temporal-rails-example",
+  "keywords": ["rails", "temporal", "ruby"]
+}

@@ -18,6 +18,8 @@ Start the web and worker processes using foreman: `foreman start -f Procfile.dev
 
 ## Deploying
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/milk-video/temporal-rails-example)
+
 If this was deployed to Heroku, the worker bin executable would be placed in a Procfile and initialized on deploy.
 
 Deploying to heroku will trigger the production procfile using: `foreman start Procfile`.
