@@ -18,9 +18,13 @@ Start the web and worker processes using foreman: `foreman start -f Procfile.dev
 
 ## Deploying
 
+If this was deployed to Heroku, the worker bin executable would be placed in a Procfile and initialized on deploy.
+
+### Heroku
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/milk-video/temporal-rails-example)
 
-If this was deployed to Heroku, the worker bin executable would be placed in a Procfile and initialized on deploy.
+Clicking the one click deploy button above will deploy this repo to a Heroku instance. Note that the workers will be running on a free worker formanation and is configured to sleep. This is not a desired behavior for an actual Temporal worker, so the worker size should be changed to a Hobby or Standard-1x instance.
 
 Deploying to heroku will trigger the production procfile using: `foreman start Procfile`.
 
