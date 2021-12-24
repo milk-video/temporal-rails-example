@@ -2,6 +2,7 @@
   "name": "Temporal on Rails deploy to Heroku example",
   "description": "A barebones Rails app with temporal-ruby sdk",
   "repository": "https://github.com/milk-video/temporal-rails-example",
+  "image": "heroku/ruby",
   "keywords": ["rails", "temporal", "ruby"],
   "formation": {
     "web": {
