@@ -5,7 +5,7 @@ ruby "3.0.3"
 
 gem "rails", "~> 7.0.0"
 gem "sprockets-rails"
-gem "puma", "~> 5.0"
+gem "puma", "~> 5.6"
 gem "importmap-rails"
 gem "turbo-rails"
 gem "stimulus-rails"
